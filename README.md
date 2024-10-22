@@ -34,5 +34,10 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - **Utilize Chi-Square tests for categorical feature selection, retaining features with p-values below 0.05.**
 - **Employ ANOVA for numerical feature selection, retaining features with p-values below 0.05.**
 
-## 4. Exploratory Data Analysis
+## 4. Outliera
+- **Plot box plots for numerical features to visualize outliers**
+- **Apply the Interquartile Range (IQR) method to remove data points that fall below the 25th percentile or above the 75th percentile.**
+
+- 
+## 4. Model Selection
 - **Utilize Seaborn to visualize the bivariate/multivariate relationship.**
