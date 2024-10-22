@@ -3,7 +3,8 @@ In this project, I developed a heart failure prediction model using PySpark and 
 
 The Kaggle Heart Failure Prediction dataset was uploaded to Azure Blob Storage. Exploratory Data Analysis (EDA) was conducted by converting the dataset from a Spark DataFrame to a Pandas DataFrame, which facilitated detailed visualizations using Seaborn and Matplotlib 
 
-A binary classification model was built using PySpark's MLlib, specifically selecting the Logistic Regression. This model was fine-tuned with Hyperopt to optimize hyperparameters. The model's performance was evaluated using the F1 score, and the classification threshold was adjusted to enhance the balance between sensitivity and specificity.
+ A binary classification model was built using PySpark's MLlib, evaluating various machine learning algorithms before selecting the top three for hyperparameter optimization with Hyperopt.
+The performance of the selected models was assessed using the F1 score, and the classification threshold was adjusted to enhance the balance between sensitivity and specificity.
 
 This project demonstrates my proficiency in using PySpark and MLlib for machine learning tasks.
 
