@@ -1,8 +1,7 @@
 # Overview
-In this project, I developed a heart disease prediction model using PySpark and Azure Databricks, leveraging MLlib for training and testing. The project includes building an end-to-end machine learning pipeline that covers data loading, preprocessing, feature engineering, model training, fine-tuning, and evaluation.
+In this project, I developed a heart disease prediction model using PySpark and Azure Databricks, leveraging MLlib for training and testing. The pipeline includes data loading, preprocessing, feature engineering, model training, fine-tuning, and evaluation.
 
-The dataset, sourced from Kaggle's Heart Disease Prediction, was uploaded to Azure Blob Storage for storage. For exploratory data analysis (EDA), the data was converted from a Spark DataFrame to a Pandas DataFrame, allowing for detailed visualizations using Seaborn and Matplotlib.
+The Kaggle Heart Disease Prediction dataset was uploaded to Azure Blob Storage. For EDA, I converted the data from a Spark DataFrame to a Pandas DataFrame for visualization using Seaborn and Matplotlib.
+I built a binary classification model using PySpark's MLlib, fine-tuned it with Hyperopt, and evaluated its performance using the F1 score. I also adjusted the classification threshold to optimize the balance between sensitivity and specificity.
 
-Using PySpark's MLlib, I applied various machine learning algorithms to develop a binary classification model. The model was fine-tuned with Hyperopt for hyperparameter optimization and evaluated using  F1 score metrics to gauge its effectiveness in predicting heart disease. Additionally, the classification threshold was adjusted to further enhance the model’s performance, improving its balance between sensitivity and specificity.
-
-This project demonstrates a practical application of PySpark and Databricks for large-scale data processing and machine learning model development, from data ingestion to model evaluation.
+This project demonstrates my proficiency in using PySpark and MLlib for machine learning tasks.
