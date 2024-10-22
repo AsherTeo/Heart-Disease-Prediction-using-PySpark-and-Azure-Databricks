@@ -17,3 +17,14 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - Cholesterol: Serum cholesterol (mm/dl)
 - ...
 - HeartDisease: Output class indicating heart disease presence (1: heart disease, 0: normal)
+
+# Machine Learning Pipline
+
+## 1. Azure DataBrick Authentication & Azure Blob Storage
+- Create a new container in Azure Blob Storage for Heart Failure Prediction Dataset.
+- Prepare Azure Storage Access Information such as Container Name, Storage Account Name & SAS Token
+- Use PySpark to mount the Azure Blob Storage container in Azure Databricks for easy access to the dataset.
+
+## 2. Data Preprocessing
+- **Handle missing values**
+- **Remove duplicate values**
