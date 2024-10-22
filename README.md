@@ -34,4 +34,5 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - **Utilize Chi-Square tests for categorical feature selection, retaining features with p-values below 0.05.**
 - **Employ ANOVA for numerical feature selection, retaining features with p-values below 0.05.**
 
-
+## 4. Exploratory Data Analysis
+- **Utilize Seaborn to visualize the bivariate/multivariate relationship.**
