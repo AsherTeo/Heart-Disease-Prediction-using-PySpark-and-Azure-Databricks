@@ -28,3 +28,10 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 ## 2. Data Preprocessing
 - **Handle missing values**
 - **Remove duplicate values**
+
+## 3. Feature Engineering
+- **Assess skewness and apply the Box-Cox transformation for features with significant skewness.**
+- **Utilize Chi-Square tests for categorical feature selection, retaining features with p-values below 0.05.**
+- **Employ ANOVA for numerical feature selection, retaining features with p-values below 0.05.**
+
+
