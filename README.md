@@ -38,6 +38,5 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - **Plot box plots for numerical features to visualize outliers**
 - **Apply the Interquartile Range (IQR) method to remove data points that fall below the 25th percentile or above the 75th percentile.**
 
-- 
-## 4. Model Selection
+## 5. Model Selection
 - **Utilize Seaborn to visualize the bivariate/multivariate relationship.**
