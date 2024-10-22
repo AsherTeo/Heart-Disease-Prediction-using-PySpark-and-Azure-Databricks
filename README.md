@@ -15,6 +15,5 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - ChestPainType: Type of chest pain (TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic)
 - RestingBP: Resting blood pressure (mm Hg)
 - Cholesterol: Serum cholesterol (mm/dl)
-- FastingBS: Fasting blood sugar (1: if FastingBS > 120 mg/dl, 0: otherwise)
 - ...
 - HeartDisease: Output class indicating heart disease presence (1: heart disease, 0: normal)
