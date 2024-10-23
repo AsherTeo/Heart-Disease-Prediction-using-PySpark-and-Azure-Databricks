@@ -63,7 +63,6 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 ## 5. Model FineTuning 
 - **Tuning method: HyperOpt was used to fine-tune hyperparameters for each model.**
 - **Best models: The table below shows the performance of top models after fine-tuning.**
-- 
 | **Model**       | **F1 Score** | **Precision**   | **Recall** |
 |-------------|-----------|----------|----------|
 | LightGBM    | 0.951484  | 0.951691 | 0.951456 | 
