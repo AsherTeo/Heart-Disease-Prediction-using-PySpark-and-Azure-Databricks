@@ -31,8 +31,13 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - **Remove duplicate values**
 - **Analyze the distribution of each feature.**
 
-## Explatory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
+This section presents a simple exploratory data analysis (EDA) to understand the characteristics of the heart failure dataset better. Below are two visualizations that provide insights into the data:
+
+- **Left Image: The visualization indicates that men are approximately three times more likely to develop heart disease compared to women.**
+- **Right Image: This visualization suggests that individuals experiencing asymptomatic chest pain (Chest Pain ASY) have a significantly higher likelihood of developing heart disease.**
+  
   <table>
 <tr>
     <td><img src="https://github.com/user-attachments/assets/893fe7fc-2a3a-4abc-826f-acf083ffebb8" alt="Image 1" width="400"/></td>
@@ -106,8 +111,8 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 The best model for heart failure prediction is the fine-tuned LightGBM.
 
 ## 7. Classification Threshold
-- Adjusting the classification threshold is another method for fine-tuning model performance.
-- The optimal threshold is determined by maximizing the difference between TPR and FPR, which is calculated using the ROC AUC score.
+- **Adjusting the classification threshold is another method for fine-tuning model performance.**
+- **The optimal threshold is determined by maximizing the difference between TPR and FPR, which is calculated using the ROC AUC score.**
   
 ![image](https://github.com/user-attachments/assets/669d9f9c-e884-42ca-bb70-955c13579b69)
 
