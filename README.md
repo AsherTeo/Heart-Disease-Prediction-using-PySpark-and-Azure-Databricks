@@ -36,6 +36,8 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - **Assess skewness and apply the Box-Cox transformation for features with significant skewness.**
 - **Utilize Chi-Square tests for categorical feature selection, retaining features with p-values below 0.05.**
 - **Employ ANOVA for numerical feature selection, retaining features with p-values below 0.05.**
+- 
+![image](https://github.com/user-attachments/assets/7a3c3cd1-a6ce-4434-b90b-7a0de2f1ecea)
 
 ## 3b. Outliers
 - **Plot box plots for numerical features to visualize outliers**
