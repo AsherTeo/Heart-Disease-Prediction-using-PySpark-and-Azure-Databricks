@@ -82,6 +82,7 @@ The image below shows an example of the final features after the pipeline proces
 ![image](https://github.com/user-attachments/assets/5a570282-b285-466a-a05a-91ac21b50b5d)
 
 ## 7. Model Selection
+
 - **Split the data into training, validation, and test sets.**
 - **Train various models (e.g., XGBoost, LightGBM, Logistic Regression) on the training set and validate using the validation set.**
 - **Select the top 3 models for fine tunning**
@@ -105,6 +106,7 @@ The image below shows an example of the final features after the pipeline proces
 | Random Forest      | 0.941748     | 0.941748      | 0.941748     |
 
 ## 9. Evaluation 
+
 - **Evaluate top models on the test dataset using metrics such as F1-score, precision, and recall.**
 
 | **Model**         | **F1 Score** | **Precision** | **Recall**   |
@@ -116,6 +118,7 @@ The image below shows an example of the final features after the pipeline proces
 The best model for heart failure prediction is the fine-tuned LightGBM.
 
 ## 10. Classification Threshold
+
 - **Adjusting the classification threshold is another method for fine-tuning model performance.**
 - **The optimal threshold is determined by maximizing the difference between TPR and FPR, which is calculated using the ROC AUC score.**
   
