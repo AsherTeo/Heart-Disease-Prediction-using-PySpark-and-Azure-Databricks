@@ -84,6 +84,15 @@ The best model for heart failure prediction is the fine-tuned LightGBM.
 ## 7. Classification Threshold
 - Adjusting the classification threshold is another method for fine-tuning model performance.
 - The optimal threshold is determined by maximizing the difference between TPR and FPR, which is calculated using the ROC AUC score.
-- 
+  
 ![image](https://github.com/user-attachments/assets/669d9f9c-e884-42ca-bb70-955c13579b69)
 
+## 8. Discussion
+
+## Environment
+- Machine Learning Framework: Apache Spark 3.5.0
+- Programming Language: Scala 2.12
+- Virtual Machine Configuration:
+   - Type: Standard_DS3_v2
+   - Memory: 14 GB
+   - Cores: 4
