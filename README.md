@@ -87,7 +87,9 @@ The best model for heart failure prediction is the fine-tuned LightGBM.
   
 ![image](https://github.com/user-attachments/assets/669d9f9c-e884-42ca-bb70-955c13579b69)
 
-## 8. Discussion
+## 8. Limitations:
+- Cross-validation is generally preferred for generalizing data, but due to limitations in the trial version, performing cross-validation with HyperOpt is slow, and I have limited credits for Azure free trials. A more robust approach would involve using cross-validation in conjunction with fine-tuning.
+- Another limitation is the inability to clearly demonstrate feature importance, which is crucial for explaining to non-technical stakeholders which features are most influential in predicting heart failure. This lack of transparency can hinder communication of model insights to a broader audience.
 
 ## Environment
 - Machine Learning Framework: Apache Spark 3.5.0
