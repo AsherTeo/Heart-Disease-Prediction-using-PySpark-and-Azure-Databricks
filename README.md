@@ -83,7 +83,7 @@ This section presents a simple exploratory data analysis (EDA) to understand the
 - **StandardScaler**: To normalize numerical features.
 - **VectorAssembler**: To assemble all features (both numerical and one-hot encoded) into a single vector.
 - **Pipeline**: To combine all transformations in a sequence.
-- 
+  
 The image below shows an example of the final features after the pipeline processing:
 
 ![image](https://github.com/user-attachments/assets/5a570282-b285-466a-a05a-91ac21b50b5d)
