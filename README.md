@@ -79,9 +79,11 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 | XGBoost           | 0.900949     | 0.907403      | 0.901786     |
 | Random Forest      | 0.900949     | 0.907403      | 0.901786     |
 
-The best model is for heart failure prediction is the fine-tunned LightGBM. 
+The best model for heart failure prediction is the fine-tuned LightGBM.
 
 ## 7. Classification Threshold
 - Adjusting the classification threshold is another method for fine-tuning model performance.
 - The optimal threshold is determined by maximizing the difference between TPR and FPR, which is calculated using the ROC AUC score.
+- 
+![image](https://github.com/user-attachments/assets/669d9f9c-e884-42ca-bb70-955c13579b69)
 
