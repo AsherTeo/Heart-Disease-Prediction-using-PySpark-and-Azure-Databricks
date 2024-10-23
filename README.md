@@ -33,7 +33,9 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 
 ## 3a. Feature Engineering
 
-![image](https://github.com/user-attachments/assets/75534fe5-a894-4e5f-a400-6638c04ed1a8)
+<img src="[https://github.com/user-attachments/assets/6395debb-f4b3-4bd6-a714-c8632182538c]" width="500" />
+
+
 
 - **Assess skewness and apply the Box-Cox transformation for features with significant skewness.**
 - **Utilize Chi-Square tests for categorical feature selection, retaining features with p-values below 0.05.**
