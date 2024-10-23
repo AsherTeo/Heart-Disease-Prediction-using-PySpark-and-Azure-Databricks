@@ -31,6 +31,15 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - **Remove duplicate values**
 - **Analyze the distribution of each feature.**
 
+## Explatory Data Analysis (EDA)
+
+  <table>
+<tr>
+    <td><img src="https://github.com/user-attachments/assets/893fe7fc-2a3a-4abc-826f-acf083ffebb8" alt="Image 1" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/83f74d31-4b56-488d-af5e-08bdc33bb3d5" alt="Image 2" width="400"/></td>
+</tr>
+</table>
+
 ## 3a. Feature Engineering
 
 - **Assess skewness and apply the Box-Cox transformation for features with significant skewness.**
