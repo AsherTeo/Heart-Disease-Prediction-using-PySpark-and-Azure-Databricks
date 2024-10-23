@@ -23,9 +23,9 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - Machine Learning Framework: Apache Spark 3.5.0
 - Programming Language: Scala 2.12
 - Virtual Machine Configuration:
-  - Type: Standard_DS3_v2
-  - Memory: 14 GB
-  - Cores: 4
+- Type: Standard_DS3_v2
+- Memory: 14 GB
+- Cores: 4
 
 # Machine Learning Pipline
 
