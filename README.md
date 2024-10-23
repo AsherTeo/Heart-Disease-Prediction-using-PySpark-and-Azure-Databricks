@@ -31,19 +31,31 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - **Remove duplicate values**
 - **Analyze the distribution of each feature.**
 
-## 3. Feature Engineering
+## 3a. Feature Engineering
 - **Assess skewness and apply the Box-Cox transformation for features with significant skewness.**
 - **Utilize Chi-Square tests for categorical feature selection, retaining features with p-values below 0.05.**
 - **Employ ANOVA for numerical feature selection, retaining features with p-values below 0.05.**
 
-## 4. Outliers
+## 3b. Outliers
 - **Plot box plots for numerical features to visualize outliers**
 - **Apply the Interquartile Range (IQR) method to remove data points that fall below the 25th percentile or above the 75th percentile.**
 
-## 5. Model Selection
-- **Split the data** into training, validation and testing sets
+## 4a. Machine Learning Pipeline
 - **StringIndexer**: To convert categorical columns into numerical indices.
 - **OneHotEncoder**: To convert the indexed categorical columns into one-hot vectors.
 - **StandardScaler**: To normalize numerical features.
 - **VectorAssembler**: To assemble all features (both numerical and one-hot encoded) into a single vector.
 - **Pipeline**: To combine all transformations in a sequence.
+- 
+## 4b. Model Selection
+- **Split the data into training, validation, and test sets.**
+- **Train various models (e.g., XGBoost, LightGBM, Logistic Regression) on the training set and validate using the validation set.**
+- **Select the top 3 models for fine tunning**
+
+### Top 3 Validation Results
+
+| **Baseline Model** | **F1 Score** |
+|-------------------|--------------|
+| Random Forest      | 0.941748     |
+| LightGBM          | 0.922403     |
+| XGBoost           | 0.902968     |
