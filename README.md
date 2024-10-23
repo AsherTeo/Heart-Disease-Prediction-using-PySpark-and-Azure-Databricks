@@ -27,8 +27,10 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - Use PySpark to mount the Azure Blob Storage container in Azure Databricks for easy access to the dataset.
 
 ## 2. Data Preprocessing
-- **Check for Missing Values and Duplicates: Utilize PySpark to identify any missing values and duplicate records in the dataset.**
+- **Utilize PySpark to identify any missing values and duplicate records in the dataset.**
 - **Analyze the distribution of each feature.**
+- **Check for Target Imbalance**
+- **Remove Irrelevant Features like IDs or names**
 
 ## 3. Exploratory Data Analysis (EDA)
 
