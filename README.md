@@ -18,6 +18,14 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - Cholesterol: Serum cholesterol (mm/dl)
 - ...
 - HeartDisease: Output class indicating heart disease presence (1: heart disease, 0: normal)
+  
+# Environment
+- Machine Learning Framework: Apache Spark 3.5.0
+- Programming Language: Scala 2.12
+- Virtual Machine Configuration:
+   - Type: Standard_DS3_v2
+   - Memory: 14 GB
+   - Cores: 4
 
 # Machine Learning Pipline
 
@@ -124,14 +132,7 @@ The best model for heart failure prediction is the fine-tuned LightGBM.
   
 ![image](https://github.com/user-attachments/assets/669d9f9c-e884-42ca-bb70-955c13579b69)
 
-## Limitations:
+# Limitations:
 - Cross-validation is generally preferred for generalizing data, but due to limitations in the trial version, performing cross-validation with HyperOpt is slow, and I have limited credits for Azure free trials. A more robust approach would involve using cross-validation in conjunction with fine-tuning.
 - Another limitation is the inability to clearly demonstrate feature importance, which is crucial for explaining to non-technical stakeholders which features are most influential in predicting heart failure. This lack of transparency can hinder communication of model insights to a broader audience.
 
-## Environment
-- Machine Learning Framework: Apache Spark 3.5.0
-- Programming Language: Scala 2.12
-- Virtual Machine Configuration:
-   - Type: Standard_DS3_v2
-   - Memory: 14 GB
-   - Cores: 4
