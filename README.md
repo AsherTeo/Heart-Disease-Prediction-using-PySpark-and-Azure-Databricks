@@ -33,7 +33,7 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 
 ## 3a. Feature Engineering
 
-<img src="https://github.com/user-attachments/assets/6395debb-f4b3-4bd6-a714-c8632182538c" width="500" />
+<img src="https://github.com/user-attachments/assets/61b4c8d2-0d5b-4547-9e0e-ef6cc0e31f3f" width="500" />
 
 
 
