@@ -43,6 +43,13 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 ## 3b. Outliers
 - **Plot box plots for numerical features to visualize outliers**
 - **Apply the Interquartile Range (IQR) method to remove data points that fall below the 25th percentile or above the 75th percentile.**
+  
+<table>
+<tr>
+    <td><img src="https://github.com/user-attachments/assets/b9abab72-8127-4581-9272-e68b4a70c3df" alt="Image 1" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/964d2e84-6487-404d-b60c-1545118f773d" alt="Image 2" width="400"/></td>
+</tr>
+</table>
 
 ## 4a. Machine Learning Pipeline
 - **StringIndexer**: To convert categorical columns into numerical indices.
