@@ -37,8 +37,12 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - **Utilize Chi-Square tests for categorical feature selection, retaining features with p-values below 0.05.**
 - **Employ ANOVA for numerical feature selection, retaining features with p-values below 0.05.**
   
-<img src="https://github.com/user-attachments/assets/7a3c3cd1-a6ce-4434-b90b-7a0de2f1ecea" width="500" />
-
+  <table>
+<tr>
+    <td><img src="https://github.com/user-attachments/assets/7a3c3cd1-a6ce-4434-b90b-7a0de2f1ecea" alt="Image 1" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/acaf3f3c-2bc4-459a-8745-f1741c9c891e" alt="Image 2" width="400"/></td>
+</tr>
+</table>
 
 ## 3b. Outliers
 - **Plot box plots for numerical features to visualize outliers**
