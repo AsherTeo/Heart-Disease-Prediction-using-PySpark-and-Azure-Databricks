@@ -99,7 +99,7 @@ This section presents a simple exploratory data analysis (EDA) to understand the
 | XGBoost           | 0.941803     | 0.942568      | 0.941748     |
 | Random Forest      | 0.941748     | 0.941748      | 0.941748     |
 
-## 6. Evaluation 
+## 9. Evaluation 
 - **Evaluate top models on the test dataset using metrics such as F1-score, precision, and recall.**
 
 | **Model**         | **F1 Score** | **Precision** | **Recall**   |
@@ -110,7 +110,7 @@ This section presents a simple exploratory data analysis (EDA) to understand the
 
 The best model for heart failure prediction is the fine-tuned LightGBM.
 
-## 9. Classification Threshold
+## 10. Classification Threshold
 - **Adjusting the classification threshold is another method for fine-tuning model performance.**
 - **The optimal threshold is determined by maximizing the difference between TPR and FPR, which is calculated using the ROC AUC score.**
   
