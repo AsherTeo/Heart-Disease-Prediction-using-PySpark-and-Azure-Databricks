@@ -31,7 +31,7 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - **Remove duplicate values**
 - **Analyze the distribution of each feature.**
 
-## Exploratory Data Analysis (EDA)
+## 3. Exploratory Data Analysis (EDA)
 
 This section presents a simple exploratory data analysis (EDA) to understand the characteristics of the heart failure dataset better. Below are two visualizations that provide insights into the data:
 
@@ -45,7 +45,7 @@ This section presents a simple exploratory data analysis (EDA) to understand the
 </tr>
 </table>
 
-## 3a. Feature Engineering
+## 4. Feature Engineering
 
 - **Assess skewness and apply the Box-Cox transformation for features with significant skewness.**
 - **Utilize Chi-Square tests for categorical feature selection, retaining features with p-values below 0.05.**
@@ -58,7 +58,7 @@ This section presents a simple exploratory data analysis (EDA) to understand the
 </tr>
 </table>
 
-## 3b. Outliers
+## 5. Outliers
 - **Plot box plots for numerical features to visualize outliers**
 - **Apply the Interquartile Range (IQR) method to remove data points that fall below the 25th percentile or above the 75th percentile.**
   
@@ -69,14 +69,14 @@ This section presents a simple exploratory data analysis (EDA) to understand the
 </tr>
 </table>
 
-## 4a. Machine Learning Pipeline
+## 6. Machine Learning Pipeline
 - **StringIndexer**: To convert categorical columns into numerical indices.
 - **OneHotEncoder**: To convert the indexed categorical columns into one-hot vectors.
 - **StandardScaler**: To normalize numerical features.
 - **VectorAssembler**: To assemble all features (both numerical and one-hot encoded) into a single vector.
 - **Pipeline**: To combine all transformations in a sequence.
   
-## 4b. Model Selection
+## 7. Model Selection
 - **Split the data into training, validation, and test sets.**
 - **Train various models (e.g., XGBoost, LightGBM, Logistic Regression) on the training set and validate using the validation set.**
 - **Select the top 3 models for fine tunning**
@@ -89,7 +89,7 @@ This section presents a simple exploratory data analysis (EDA) to understand the
 | LightGBM          | 0.922403     |
 | XGBoost           | 0.902968     |
 
-## 5. Model FineTuning 
+## 8. Model FineTuning 
 - **Tuning method: HyperOpt was used to fine-tune hyperparameters for each model.**
 - **Best models: The table below shows the performance of top models after fine-tuning.**
   
@@ -110,7 +110,7 @@ This section presents a simple exploratory data analysis (EDA) to understand the
 
 The best model for heart failure prediction is the fine-tuned LightGBM.
 
-## 7. Classification Threshold
+## 9. Classification Threshold
 - **Adjusting the classification threshold is another method for fine-tuning model performance.**
 - **The optimal threshold is determined by maximizing the difference between TPR and FPR, which is calculated using the ROC AUC score.**
   
