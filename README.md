@@ -46,7 +46,7 @@ The Heart Failure Prediction Dataset from [kaggle](https://www.kaggle.com/datase
 - **StandardScaler**: To normalize numerical features.
 - **VectorAssembler**: To assemble all features (both numerical and one-hot encoded) into a single vector.
 - **Pipeline**: To combine all transformations in a sequence.
-- 
+  
 ## 4b. Model Selection
 - **Split the data into training, validation, and test sets.**
 - **Train various models (e.g., XGBoost, LightGBM, Logistic Regression) on the training set and validate using the validation set.**
